@@ -1,0 +1,113 @@
+SAMPLE RUN — Student Management System Using a Stack
+(Example transcript; enter the values shown after each prompt.)
+
+===== Student Management System (Stack-based) =====
+1. Add Student
+2. Remove Last-Added Student
+3. View Most Recently Added Student
+4. Display All Students
+5. Search Student by Roll Number
+6. Undo Last Delete
+7. Exit
+Enter your choice: 1
+Roll Number: 101
+Name: Asha Rao
+Age: 19
+Course / Branch: CSE
+CGPA (0.0 - 10.0): 8.7
+Pushed student successfully. Current top: [Roll No: 101, Name: Asha Rao, Age: 19, Course: CSE, CGPA: 8.70]
+
+===== Student Management System (Stack-based) =====
+1. Add Student
+2. Remove Last-Added Student
+3. View Most Recently Added Student
+4. Display All Students
+5. Search Student by Roll Number
+6. Undo Last Delete
+7. Exit
+Enter your choice: 1
+Roll Number: 102
+Name: Vivek Nair
+Age: 20
+Course / Branch: ECE
+CGPA (0.0 - 10.0): 7.9
+Pushed student successfully. Current top: [Roll No: 102, Name: Vivek Nair, Age: 20, Course: ECE, CGPA: 7.90]
+
+===== Student Management System (Stack-based) =====
+1. Add Student
+2. Remove Last-Added Student
+3. View Most Recently Added Student
+4. Display All Students
+5. Search Student by Roll Number
+6. Undo Last Delete
+7. Exit
+Enter your choice: 1
+Roll Number: 103
+Name: Nisha Kumar
+Age: 19
+Course / Branch: ISE
+CGPA (0.0 - 10.0): 9.1
+Pushed student successfully. Current top: [Roll No: 103, Name: Nisha Kumar, Age: 19, Course: ISE, CGPA: 9.10]
+
+===== Student Management System (Stack-based) =====
+1. Add Student
+2. Remove Last-Added Student
+3. View Most Recently Added Student
+4. Display All Students
+5. Search Student by Roll Number
+6. Undo Last Delete
+7. Exit
+Enter your choice: 2
+Removed [Roll No: 103, Name: Nisha Kumar, Age: 19, Course: ISE, CGPA: 9.10] and saved to history. Current top: [Roll No: 102, Name: Vivek Nair, Age: 20, Course: ECE, CGPA: 7.90]
+
+===== Student Management System (Stack-based) =====
+1. Add Student
+2. Remove Last-Added Student
+3. View Most Recently Added Student
+4. Display All Students
+5. Search Student by Roll Number
+6. Undo Last Delete
+7. Exit
+Enter your choice: 6
+Undo successful. Restored [Roll No: 103, Name: Nisha Kumar, Age: 19, Course: ISE, CGPA: 9.10]. Current top: [Roll No: 103, Name: Nisha Kumar, Age: 19, Course: ISE, CGPA: 9.10]
+
+===== Student Management System (Stack-based) =====
+1. Add Student
+2. Remove Last-Added Student
+3. View Most Recently Added Student
+4. Display All Students
+5. Search Student by Roll Number
+6. Undo Last Delete
+7. Exit
+Enter your choice: 5
+Enter roll number to search: 102
+Student found: [Roll No: 102, Name: Vivek Nair, Age: 20, Course: ECE, CGPA: 7.90]
+Search completed. Current top: [Roll No: 103, Name: Nisha Kumar, Age: 19, Course: ISE, CGPA: 9.10]
+
+===== Student Management System (Stack-based) =====
+1. Add Student
+2. Remove Last-Added Student
+3. View Most Recently Added Student
+4. Display All Students
+5. Search Student by Roll Number
+6. Undo Last Delete
+7. Exit
+Enter your choice: 4
+
+--- All Students (top to bottom) ---
+[Roll No: 103, Name: Nisha Kumar, Age: 19, Course: ISE, CGPA: 9.10]
+[Roll No: 102, Name: Vivek Nair, Age: 20, Course: ECE, CGPA: 7.90]
+[Roll No: 101, Name: Asha Rao, Age: 19, Course: CSE, CGPA: 8.70]
+Total students: 3
+Current top: [Roll No: 103, Name: Nisha Kumar, Age: 19, Course: ISE, CGPA: 9.10]
+
+===== Student Management System (Stack-based) =====
+1. Add Student
+2. Remove Last-Added Student
+3. View Most Recently Added Student
+4. Display All Students
+5. Search Student by Roll Number
+6. Undo Last Delete
+7. Exit
+Enter your choice: 7
+Both stacks cleared. Exiting Student Management System.
